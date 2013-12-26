@@ -10,3 +10,6 @@ In order to use run:
 <code>git clone --recursive git@github.com:rubinsh/vimconfig.git ~/.janus</code>  
 After that, copy the .vimrc.after file into your home directory:  
 <code>cp .vimrc.after ~/.vimrc.after</code>
+
+### Additional info
+For better code navigation, install gem-ctags from: https://github.com/tpope/gem-ctags
