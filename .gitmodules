@@ -1,0 +1,12 @@
+[submodule "vim-airline"]
+	path = vim-airline
+	url = git@github.com:bling/vim-airline.git
+[submodule "vim-bundler"]
+	path = vim-bundler
+	url = git@github.com:tpope/vim-bundler.git
+[submodule "vim-rails"]
+	path = vim-rails
+	url = git@github.com:tpope/vim-rails.git
+[submodule "vim-rspec"]
+	path = vim-rspec
+	url = https://github.com/thoughtbot/vim-rspec
