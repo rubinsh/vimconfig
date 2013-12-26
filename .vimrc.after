@@ -1,5 +1,5 @@
 set background=dark
-color railscasts
+color solarized
 map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
