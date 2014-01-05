@@ -10,3 +10,6 @@
 [submodule "vim-rspec"]
 	path = vim-rspec
 	url = https://github.com/thoughtbot/vim-rspec
+[submodule "ag.vim"]
+	path = ag.vim
+	url = https://github.com/rking/ag.vim
