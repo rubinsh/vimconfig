@@ -1,0 +1,13 @@
+[user]
+	name = Shai Rubinstein
+	email = rubinsh@gmail.com
+[alias]
+	st = status
+	co = checkout
+	br = branch
+[diff]
+  external = /usr/local/bin/git-diff.sh
+
+[core]
+	excludesfile = ~/.gitignore
+	editor = vim
