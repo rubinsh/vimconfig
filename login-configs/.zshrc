@@ -83,4 +83,4 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 alias be="bundle exec"
 alias tmux="TERM=screen-256color-bce tmux"
 export PATH=/usr/local/bin:$PATH
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home"
+export TERM=xterm-256color
