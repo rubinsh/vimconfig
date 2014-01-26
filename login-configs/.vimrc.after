@@ -5,3 +5,4 @@ map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 let g:rspec_command = "!rspec --drb {spec}"
+let g:ctrlp_max_files=0
