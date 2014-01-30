@@ -67,7 +67,7 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='mvim'
+  export EDITOR='gvim'
 fi
 
 # Compilation flags
@@ -81,6 +81,7 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 #Custom definitions
 alias be="bundle exec"
+alias gitlog="git log --pretty=format:"%h - %an, %ar : %s"
 alias tmux="TERM=screen-256color-bce tmux"
 export PATH=/usr/local/bin:$PATH
 export TERM=xterm-256color
